@@ -10,7 +10,7 @@ from langchain.callbacks.manager import (
 )
 
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = ''
 llm = OpenAI(temperature = 0.9)
 tools = [PythonREPLTool()]
 topic = input("What tool do you want to make?: " )
